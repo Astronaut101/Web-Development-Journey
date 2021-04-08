@@ -6,4 +6,6 @@ I am working with the Data Management and Data Analytics team in an IT Company h
 With that in mind, I would love seeing myself in becoming a Front End Web Developer, while also I am working towards in becoming a Professional Data Engineer for Google Cloud as my very soon-to-be role within the company that I am working with.
 I am so happy that I have finally found my two ultimate passions that brings me ultimate joy and fulfillment in life; being able to work with Big data and learn AI/ML Solutions for Big data, and as well as seeing myself creating beautiful, interactive, and awesome user-experience kind of websites. 
 
-Cheers! And as always, never stop learning!  
+I will be updating the repo from time-to-time along with my code files, notes, and significant progress that I have made along the way. This would give folks an idea about what Flavio Copes' JavaScript Bootcamp and its curriculum is all about.   
+
+Cheers and stay safe! And as always, never stop learning!  
