@@ -145,5 +145,100 @@ as it's one of the key factors for Search Engine Optimization (SEO).
 
 The <title> tag: 
 
+    - The title tag determines the page title. The title is displayed in the browser, and it's especially 
+    important as it's one off the key factors for Search Engine Optimization (SEO)
+
+The <script> tag: 
+
+    - This tag is used to add JavaScript into the page. 
+    - You can include it inline, using an opening tag, the JavaScript code and then the closing tag: 
+    - Or you can load an external JavaScript file by using the src attribute: 
+
+The <link> tag: 
+
+    - The link tag is used to set relationships between a document and other resources. 
+    - It's mainly used to link an external CSS file to be loaded. 
+    - This element has no closing tag. 
+    - The media attribute allows the loading of different stylesheets depending on the device capabilities: 
+    - We can also link to resources other than stylesheets.
+    - For example we can associate an RSS feed using 
+    - This tag was also used for multi-page content, to indicate the previous and next page using rel="prev" and rel="next".
+
+The <style> tag: 
+
+    - This tag can be used to add styles into the document, rather than loading an external stylesheet. 
+
+The <meta> tag: 
+
+    - same as the description above for <meta tag>
 
 
+
+The Document Body 
+
+    - After the closing head tag, we can only have one thing in an HTML document: the body element. 
+    - Just like the head and html tags, we can only have one body in one page.
+    - Inside the body tag we have all the tags that define the content of the page. 
+    - Technically, the start and ending tags are optional; I consider it a good practice to add them. Just for clarity.
+
+Block elements vs inline elements: 
+
+    - Visual elements, the one defined in the page body, can be generally classified in 2 categories: 
+        - block elements (p, div, heading elements, lists and list items, ...)
+        - inline elements (a, span, img, ...)
+    - What is the difference? 
+        - Block elements, when positioned in the page, do not allow other elements next to them. To the left, or to the right.
+        - Inline elements instead can sit next to other inline elements.
+        - The difference also lies in the visual properties we can edit using CSS. We can alter the width/height, margin, padding and border of block elements.
+        - Note that using CSS we can change the default for each elements, setting a "p" tag to be inline, for example, or a span to be a block element.
+        - Another difference is that inline elements can be contained in block elements. The reverse is not true.
+        - Some block elements can contain other block elements, but it depends. The p tag for example does not allow such option.
+
+The <p> and <span> tags: 
+
+    - The <p> tag defines a paragraph of text. 
+    - It's a block element.
+    - We can add any inline element we like, like "span" or "a" 
+    - WE CANNOT ADD BLOCK ELEMENTS 
+    - We cannot nest a p element into another one. 
+    - By default browsers style a paragraph with a margin on top and at the bottom. 16px in Chrome, but the exact value might vary between browsers. 
+    - This causes two consecutive paragraphs to be spaced, replicating what we think of a "paragraph" in printed text. 
+    - The <span> tag is an inline tag that can be used to create a section in a paragraph that can be styled differently using CSS: 
+
+The heading tags:
+
+    - HTML provides us 6 heading tags. From most important to least important, we have h1, h2, h3, h4, h5, h6.
+    - Typically a page will have one h1 element, which is the page title. Then you might have one or more h2 elements depending on the page content.
+    - Headings, especially the heading organization, are also essential for SEO, and search engines use them in various ways.
+    - All headings are block elements. They cannot contain other elements, just text.
+
+Lists:
+
+    - We have 2 main kinds of lists:
+        - Unordered lists 
+        - Ordered lists 
+    - Unordered lists are created using the ul tag. Each item in the list is created with the li tag:
+    - Ordered lists are similar, just made with the ol tag: 
+
+Links: 
+
+    - Links are defined using the "a" tag. The link destination is set via its href attribute. 
+    - Between the starting and closing tag we have the link text. 
+    - The above example is an absolute URL. Links also work with relative URLs:
+    - In this case, when clicking the link the user is moved to the /test URL on the current origin. 
+    - Be careful with the "/" character. If omitted, instead of starting from the origin, the browser will just add the test string to the current URL. 
+    - Example, I'm on the page https://flaviocopes.com/axios/ and I have these links:
+        - /test once clicked brings me to https://flaviocopes.com/test
+        - test once clicked brings me to https://flaviocopes.com/axios/test 
+    - Link tags can include other things inside them, not just text. For example, images:
+    - OR any other element, except other <a> tags
+    - If you want to open the link in a new tab, you can use the target attribute: 
+
+Images:
+
+    - Images can be displayed using the <img> tag. 
+    - This tag accepts a "src" attribute, which we use to set the image source:
+    - We can use a wide set of images. The most common ones are PNG, JPEG, GIF, SVG and more recently WebP.
+    - The HTML standard requires an "alt" attribute to be present, to describe the image. This is used by screen readers and also by search engine bots: 
+    - You can set the width and height attributes to set the space that the element will take, so that the browser can account for it and it does not change the layout when it's fully loaded. 
+    - It takes a numeric value, expressed in pixels.
