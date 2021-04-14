@@ -1,0 +1,48 @@
+<!-- What is HTML head?-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="SamFarm Vertical Farming">
+        <meta name="description" content="The SamFarm Vertical Farming site would provide you the latest technologies and innovations that we are doing on our state-of-the-art world class hydroponic facility that houses all of our 100% organic, BPA-free, Non-GMO certified veggies and crops."
+        <title>My Test Page</title>
+    </head>
+    <body>
+        <p>This is my page</p>
+    </body>
+</html>
+
+<!-- <h1> element appears on the page when loaded in the browser - generally this should be used once per page, to mark-up the title of your page content (the story title, the news headline, and whatever is appropriate to your usage) -->
+<!-- <title> element is metadata that represents the title of the overall HTML document. -->
+<!-- name specifies the type of meta element it is; what type of information it contains.-->
+<!-- content specifies the actual meta content. -->
+
+<!-- favicon -->
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+<!-- third-generation iPad with high-resolution Retina display: -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://developer.mozilla.org/static/img/favicon144.png">
+<!-- iPhone with high-resolution Retina display: -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://developer.mozilla.org/static/img/favicon114.png">
+<!-- first- and second-generation iPad: -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://developer.mozilla.org/static/img/favicon72.png">
+<!-- non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+<link rel="apple-touch-icon-precomposed" href="https://developer.mozilla.org/static/img/favicon57.png">
+<!-- basic favicon -->
+<link rel="shortcut icon" href="https://developer.mozilla.org/static/img/favicon32.png">
+
+<!-- Applying CSS and JavaScript to HTML -->
+
+<!-- <link> element should always go inside the head of your document. Taking two attributes: rel="stylesheet", which indicates that it is the document's stylesheet, and href, which contains the path to the path to the stylesheet file -->
+<link rel="stylesheet" href="my-css-file.css">
+
+<!-- <script> element, should also go into the head, and should include a src attribute containing the path to the Javascript you want to load, and defer, which basically instructs the browser to load the JavaScript at the same time as the 
+page's HTML. It is useful as it is making sure that the HTML is all loaded before the JavaScript runs, so you will not get errors resulting from JavaScript trying to access an HTML element that doesn't exist on the page yet-->
+<script src="my-js-file.js" defer></script>
+
+<!-- the defer attribute, which tells the browser to continue downloading the HTML content once the <script> tag element has been reached. -->
+<!-- Both the script and the HTML will load simultaneously and the code will work. -->
+    <!-- DOM (Document Object Model) -->
+    <!--  In the external case, we did not need to use the DOMContentLoaded event because the defer attribute solved the problem for us. We didn't use the defer solution for the internal JavaScript example because defer only works for external scripts. -->
+<!-- defer tag in <script> only works for external scripts -->
+
