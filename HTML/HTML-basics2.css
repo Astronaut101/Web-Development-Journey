@@ -1,0 +1,12 @@
+ul {
+    border: 2px solid orange;
+}
+
+ol {
+    border: 2px solid purple;
+}
+
+ol, ul {
+    padding: 5px 20px;
+    border-radius: 4px;
+}
