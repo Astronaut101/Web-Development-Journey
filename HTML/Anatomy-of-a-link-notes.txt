@@ -1,0 +1,41 @@
+Anatomy of a link:
+    - Block Level Links
+    - Links are wrapped by a text or other content -- Block Level Links -- inside an <a> element and using the <href> attribute
+    - <href> - Hypertext Reference, or target, that contains the web address 
+
+Link Best Practices:
+    - Use clear link wording:
+        - Screenreader users like jumping around from link to link on the page, and reading links out of context.
+        - Search Engines use link text to index target files, so it is a good idea to include keywords in your link text to effectively describe what is being linked to. 
+        - Visual readers skim over the page rather than reading every word, and their eyes will be drawn to page features that stand out, like links. They will find descriptive link text useful. 
+    - Use relative links wherever possible:
+        - Using relative links wherever possible when linking to other locations within the same website. When you link to another website, you'll need to use an absolute link. 
+        - If you use absolute URLs where relative URLs would do, you're constantly making your browser do extra work, meaning that it will perform less efficiently.
+    - Linking to non-HTML resources - leave clear signposts
+        - When linking to a resources that will be..
+            - Downloaded (PDF or word document)
+            - Streamed (Video or Audio)
+            - has potentially unexpected effect (Opens up a pop-up windowm, or loads a Flash Movie), you should add clear wording to reduce any confusion.
+            - Use the download attribute when linking to a download
+
+E-mail links:
+    - Email-address is optional. If you omit it and your href is "mailto:", a new outgoing email window will be opened by the user's email client with no destination address.
+
+Specifying Details:
+    - sending an email with cc, bcc, subject, and body
+    - the values of each field must be URL-encoded, that is with non-printing characters (invisible characters like tabs, carriage returns, and page breaks) and spaces percent-escaped.
+    - Also note the use of the question mark (?) to separate the main URL from the field values, and ampersands (&) to separate each field in the mailto: URL. This is the standard URL query notation.
+
+Sample hyperlink tag to send an email on a separate window:
+
+    <a href="mailto:nowhere@mozilla.org?cc=name2@rapidtables.com&bcc=name3@rapidtables.com&subject=The%20subject%20of%20the%20email&body=The%20body%20of%20the%20email">
+    Send mail with cc, bcc, subject and body
+    </a>
+
+Here are a few other sample mailto URLs:
+
+    mailto:
+    mailto:nowhere@mozilla.org
+    mailto:nowhere@mozilla.org,nobody@mozilla.org
+    mailto:nowhere@mozilla.org?cc=nobody@mozilla.org
+    mailto:nowhere@mozilla.org?cc=nobody@mozilla.org&subject=This%20is%20the%20subject
