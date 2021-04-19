@@ -1,0 +1,13 @@
+h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: purple
+}
+
+p {
+    margin: 0.5em 0;
+}
+
+abbr, time{
+    color: green;
+}
