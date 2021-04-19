@@ -1,0 +1,31 @@
+Document and Website Structure
+- Basic Sections of a Document:
+1. Header: 
+- Usually a big strip across the top with a big heading, logo, and perhaps a tagline.
+- This usually stays the same from one webpage to another.
+- <head>
+
+2. Navigation bar:
+- Many web designers consider the navigation bar to be part of the header rather an individual component, but that's not a requirement.
+- Having the navigation bar and header separate is better for accessibility, as screen readers can read the two features better if they are separate.
+- <nav>
+
+3. Main content:
+- A big area in the center that contains most of the unique content of a given webpage, for example, the video you want to watch, or the main story that you're reading, or the map you want to view, or the news headlines, etc.
+- One part of the website that definitely will vary from page to page!
+- <main> - can be separated or described with the <article>, <div>, <section>
+
+4. Sidebar:
+- Some peripheral info, links, quotes, ads, etc.
+- Contextual to what is contained in the main content 
+- <aside> - often placed inside <main>
+
+5. Footer:
+- A strip across the bottom of the page that generally contains fine print, copyright notices, or contact info.
+- <footer>
+
+- Respecting semantics and use the right element for the right job.
+- In a website, visuals don't tell the whole story.
+- Using color and font size to draw sighted users' attention to the most useful parts of the content, like the navigation menu and related links.
+- Mark up sections of content based on their functionality
+
