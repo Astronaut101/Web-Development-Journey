@@ -1,0 +1,8 @@
+3 commandments for accessibility:
+
+1 -- Sites should be accessible to keyboard, mouse, and touch screen users, and any other way users access the web, including screen readers and voice assistants like Alexa and Google Home.
+2 -- Applications should be understandable and usable by people regardless of auditory, visual, physical, or cognitive abilities.
+3 -- Sites should also not cause harm: web features like motion can cause migraines or epileptic seizures.
+
+BY DEFAULT, HTML IS ACCESSIBLE, IF USED CORRECTLY. 
+-- Web accessibility involves ensuring that content remains accessible, regardless of who and how the web is accessed.
